@@ -1,0 +1,50 @@
+﻿body {
+    background-color: midnightblue;
+    color: palegreen;
+    font-family: 'Bahnschrift';
+    font-size: 20px;
+}
+
+#LabelTitle, #LabelTitle1 {
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Emilys Candy';
+    font-weight: 900;
+}
+
+#loginbBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#Button_login, #Button_signup {
+    width: 200px;
+    height: 35px;
+    font-size: medium;
+    font-weight: bold;
+    color: midnightblue;
+    background-color: palegreen;
+    border-radius: 50px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+#LabelPassword {
+    margin-left: 100px;
+}
+
+#TextBoxPassword, #TextBoxLoginName {
+    background-color: lightsteelblue;
+    height: 35px;
+    border-radius: 15px;
+}
+
+#all-div {
+    margin-top: 100px;
+}
+
+#rightSide, #leftSide {
+    flex: 50%;
+}
